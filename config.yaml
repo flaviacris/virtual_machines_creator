@@ -1,0 +1,66 @@
+virtual_machines_defaults:
+    DOMAIN: alexciobanu.ro
+    HOME_FOLDER: /vbox/
+    GENERIC_VM: centos73.ova
+    HOSTUSER: hostadmin
+    OS_VERSION: 7
+    VM_START_IP: 192.168.0.10
+    VM_USER: user
+
+virtual_machines:
+
+  utility:
+    name: utility
+    server: 192.168.0.97
+    ram: 10240
+    core: 2
+    ip_address: 192.168.0.21
+
+  master1:
+    name: master1
+    server: 192.168.0.98
+    ram: 8192
+    core: 1
+    ip_address: 192.168.0.22
+
+  master2:
+    name: master2
+    server: 192.168.0.99
+    ram: 8192
+    core: 1
+    ip_address: 192.168.0.23
+
+  worker1:
+    name: worker1
+    server: 192.168.0.97
+    ram: 8192
+    core: 3
+    ip_address: 192.168.0.24
+
+  worker2:
+    name: worker2
+    server: 192.168.0.98
+    ram: 8192
+    core: 3
+    ip_address: 192.168.0.25
+
+  worker3:
+    name: worker3
+    server: 192.168.0.99
+    ip_address: 192.168.0.26
+    ram: 8192
+    core: 3
+
+  edge:
+    name: edge
+    server: 192.168.0.99
+    ram: 4096
+    core: 1
+    ip_address: 192.168.0.27
+
+  ipa:
+    name: ipa
+    server: 192.168.0.98
+    ram: 2048
+    core: 1
+    ip_address: 192.168.0.28

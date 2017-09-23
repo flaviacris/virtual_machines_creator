@@ -1,0 +1,12 @@
+127.0.0.1		localhost.localdomain	localhost localhost4 localhost4.localdomain4
+::1		localhost.localdomain	localhost localhost6 localhost6.localdomain6
+192.168.0.22	master1.alexciobanu.ro	master1
+192.168.0.23	master2.alexciobanu.ro	master2
+192.168.0.24	worker1.alexciobanu.ro	worker1
+192.168.0.26	worker3.alexciobanu.ro	worker3
+192.168.0.25	worker2.alexciobanu.ro	worker2
+192.168.0.27	edge.alexciobanu.ro	edge
+192.168.0.28	ipa.alexciobanu.ro	ipa
+192.168.0.21	utility.alexciobanu.ro	utility
+192.168.0.29	orcl.alexciobanu.ro	orcl
+
